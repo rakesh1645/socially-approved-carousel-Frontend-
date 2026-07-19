@@ -1,0 +1,1 @@
+export default function ErrorState({ message, onRetry }) { return <section className="mx-auto grid min-h-64 max-w-lg place-items-center px-6 text-center"><div><p className="mb-4 text-stone-600">{message}</p>{onRetry && <button className="rounded-full bg-stone-900 px-5 py-3 text-sm font-semibold text-white" onClick={onRetry}>Try again</button>}</div></section>; }
